@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C037D7AB1EF75B10000C6938 /* B15SBluetoothAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = C037D7A91EF75B10000C6938 /* B15SBluetoothAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C037D7C91EF75B20000C6938 /* B15SBluetoothDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = C037D7B21EF75B20000C6938 /* B15SBluetoothDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C037D7CA1EF75B20000C6938 /* B15SBluetoothDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = C037D7B31EF75B20000C6938 /* B15SBluetoothDevice.m */; };
+		C037D7CB1EF75B20000C6938 /* B15SBluetoothManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C037D7B41EF75B20000C6938 /* B15SBluetoothManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C037D7CC1EF75B20000C6938 /* B15SBluetoothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C037D7B51EF75B20000C6938 /* B15SBluetoothManager.m */; };
+		C037D7CD1EF75B20000C6938 /* B15SBluetoothManagerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C037D7B61EF75B20000C6938 /* B15SBluetoothManagerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C037D7CE1EF75B20000C6938 /* B15SDataSouceDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C037D7B71EF75B20000C6938 /* B15SDataSouceDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C037D7CF1EF75B20000C6938 /* B15SDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = C037D7B81EF75B20000C6938 /* B15SDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C037D7D01EF75B20000C6938 /* B15SDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C037D7B91EF75B20000C6938 /* B15SDataSource.m */; };
+		C037D7D11EF75B20000C6938 /* B15SPeripheral.h in Headers */ = {isa = PBXBuildFile; fileRef = C037D7BA1EF75B20000C6938 /* B15SPeripheral.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C037D7D21EF75B20000C6938 /* B15SPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = C037D7BB1EF75B20000C6938 /* B15SPeripheral.m */; };
+		C037D7D31EF75B20000C6938 /* B15SSleepModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C037D7BC1EF75B20000C6938 /* B15SSleepModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C037D7D41EF75B20000C6938 /* B15SSleepModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C037D7BD1EF75B20000C6938 /* B15SSleepModel.m */; };
+		C037D7D51EF75B20000C6938 /* ConstNSNotificationName.h in Headers */ = {isa = PBXBuildFile; fileRef = C037D7BE1EF75B20000C6938 /* ConstNSNotificationName.h */; };
+		C037D7D61EF75B20000C6938 /* ConstNSNotificationName.m in Sources */ = {isa = PBXBuildFile; fileRef = C037D7BF1EF75B20000C6938 /* ConstNSNotificationName.m */; };
+		C037D7D71EF75B20000C6938 /* HealthDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C037D7C01EF75B20000C6938 /* HealthDataModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C037D7D81EF75B20000C6938 /* HealthDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C037D7C11EF75B20000C6938 /* HealthDataModel.m */; };
+		C037D7D91EF75B20000C6938 /* iOSDFULibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C037D7C21EF75B20000C6938 /* iOSDFULibrary.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C037D7DA1EF75B20000C6938 /* StatusTpye.h in Headers */ = {isa = PBXBuildFile; fileRef = C037D7C31EF75B20000C6938 /* StatusTpye.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C037D7DB1EF75B20000C6938 /* UpdateVersionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C037D7C41EF75B20000C6938 /* UpdateVersionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C037D7DC1EF75B20000C6938 /* UpdateVersionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C037D7C51EF75B20000C6938 /* UpdateVersionManager.m */; };
+		C037D7DD1EF75B20000C6938 /* WholePointTestModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C037D7C61EF75B20000C6938 /* WholePointTestModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C037D7DE1EF75B20000C6938 /* WholePointTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C037D7C71EF75B20000C6938 /* WholePointTestModel.m */; };
+		C037D7DF1EF75B20000C6938 /* Zip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C037D7C81EF75B20000C6938 /* Zip.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C037D7A61EF75B10000C6938 /* B15SBluetoothAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = B15SBluetoothAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C037D7A91EF75B10000C6938 /* B15SBluetoothAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = B15SBluetoothAPI.h; sourceTree = "<group>"; };
+		C037D7AA1EF75B10000C6938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C037D7B21EF75B20000C6938 /* B15SBluetoothDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = B15SBluetoothDevice.h; sourceTree = "<group>"; };
+		C037D7B31EF75B20000C6938 /* B15SBluetoothDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = B15SBluetoothDevice.m; sourceTree = "<group>"; };
+		C037D7B41EF75B20000C6938 /* B15SBluetoothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = B15SBluetoothManager.h; sourceTree = "<group>"; };
+		C037D7B51EF75B20000C6938 /* B15SBluetoothManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = B15SBluetoothManager.m; sourceTree = "<group>"; };
+		C037D7B61EF75B20000C6938 /* B15SBluetoothManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = B15SBluetoothManagerDelegate.h; sourceTree = "<group>"; };
+		C037D7B71EF75B20000C6938 /* B15SDataSouceDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = B15SDataSouceDelegate.h; sourceTree = "<group>"; };
+		C037D7B81EF75B20000C6938 /* B15SDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = B15SDataSource.h; sourceTree = "<group>"; };
+		C037D7B91EF75B20000C6938 /* B15SDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = B15SDataSource.m; sourceTree = "<group>"; };
+		C037D7BA1EF75B20000C6938 /* B15SPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = B15SPeripheral.h; sourceTree = "<group>"; };
+		C037D7BB1EF75B20000C6938 /* B15SPeripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = B15SPeripheral.m; sourceTree = "<group>"; };
+		C037D7BC1EF75B20000C6938 /* B15SSleepModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = B15SSleepModel.h; sourceTree = "<group>"; };
+		C037D7BD1EF75B20000C6938 /* B15SSleepModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = B15SSleepModel.m; sourceTree = "<group>"; };
+		C037D7BE1EF75B20000C6938 /* ConstNSNotificationName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstNSNotificationName.h; sourceTree = "<group>"; };
+		C037D7BF1EF75B20000C6938 /* ConstNSNotificationName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstNSNotificationName.m; sourceTree = "<group>"; };
+		C037D7C01EF75B20000C6938 /* HealthDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthDataModel.h; sourceTree = "<group>"; };
+		C037D7C11EF75B20000C6938 /* HealthDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthDataModel.m; sourceTree = "<group>"; };
+		C037D7C21EF75B20000C6938 /* iOSDFULibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iOSDFULibrary.framework; sourceTree = "<group>"; };
+		C037D7C31EF75B20000C6938 /* StatusTpye.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusTpye.h; sourceTree = "<group>"; };
+		C037D7C41EF75B20000C6938 /* UpdateVersionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateVersionManager.h; sourceTree = "<group>"; };
+		C037D7C51EF75B20000C6938 /* UpdateVersionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateVersionManager.m; sourceTree = "<group>"; };
+		C037D7C61EF75B20000C6938 /* WholePointTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WholePointTestModel.h; sourceTree = "<group>"; };
+		C037D7C71EF75B20000C6938 /* WholePointTestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WholePointTestModel.m; sourceTree = "<group>"; };
+		C037D7C81EF75B20000C6938 /* Zip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Zip.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C037D7A21EF75B10000C6938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C037D7DF1EF75B20000C6938 /* Zip.framework in Frameworks */,
+				C037D7D91EF75B20000C6938 /* iOSDFULibrary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C037D79C1EF75B10000C6938 = {
+			isa = PBXGroup;
+			children = (
+				C037D7A81EF75B10000C6938 /* B15SBluetoothAPI */,
+				C037D7A71EF75B10000C6938 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C037D7A71EF75B10000C6938 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C037D7A61EF75B10000C6938 /* B15SBluetoothAPI.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C037D7A81EF75B10000C6938 /* B15SBluetoothAPI */ = {
+			isa = PBXGroup;
+			children = (
+				C037D7B11EF75B20000C6938 /* API */,
+				C037D7A91EF75B10000C6938 /* B15SBluetoothAPI.h */,
+				C037D7AA1EF75B10000C6938 /* Info.plist */,
+			);
+			path = B15SBluetoothAPI;
+			sourceTree = "<group>";
+		};
+		C037D7B11EF75B20000C6938 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				C037D7B21EF75B20000C6938 /* B15SBluetoothDevice.h */,
+				C037D7B31EF75B20000C6938 /* B15SBluetoothDevice.m */,
+				C037D7B41EF75B20000C6938 /* B15SBluetoothManager.h */,
+				C037D7B51EF75B20000C6938 /* B15SBluetoothManager.m */,
+				C037D7B61EF75B20000C6938 /* B15SBluetoothManagerDelegate.h */,
+				C037D7B71EF75B20000C6938 /* B15SDataSouceDelegate.h */,
+				C037D7B81EF75B20000C6938 /* B15SDataSource.h */,
+				C037D7B91EF75B20000C6938 /* B15SDataSource.m */,
+				C037D7BA1EF75B20000C6938 /* B15SPeripheral.h */,
+				C037D7BB1EF75B20000C6938 /* B15SPeripheral.m */,
+				C037D7BC1EF75B20000C6938 /* B15SSleepModel.h */,
+				C037D7BD1EF75B20000C6938 /* B15SSleepModel.m */,
+				C037D7BE1EF75B20000C6938 /* ConstNSNotificationName.h */,
+				C037D7BF1EF75B20000C6938 /* ConstNSNotificationName.m */,
+				C037D7C01EF75B20000C6938 /* HealthDataModel.h */,
+				C037D7C11EF75B20000C6938 /* HealthDataModel.m */,
+				C037D7C21EF75B20000C6938 /* iOSDFULibrary.framework */,
+				C037D7C31EF75B20000C6938 /* StatusTpye.h */,
+				C037D7C41EF75B20000C6938 /* UpdateVersionManager.h */,
+				C037D7C51EF75B20000C6938 /* UpdateVersionManager.m */,
+				C037D7C61EF75B20000C6938 /* WholePointTestModel.h */,
+				C037D7C71EF75B20000C6938 /* WholePointTestModel.m */,
+				C037D7C81EF75B20000C6938 /* Zip.framework */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C037D7A31EF75B10000C6938 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C037D7DB1EF75B20000C6938 /* UpdateVersionManager.h in Headers */,
+				C037D7D51EF75B20000C6938 /* ConstNSNotificationName.h in Headers */,
+				C037D7DD1EF75B20000C6938 /* WholePointTestModel.h in Headers */,
+				C037D7D11EF75B20000C6938 /* B15SPeripheral.h in Headers */,
+				C037D7CE1EF75B20000C6938 /* B15SDataSouceDelegate.h in Headers */,
+				C037D7C91EF75B20000C6938 /* B15SBluetoothDevice.h in Headers */,
+				C037D7D31EF75B20000C6938 /* B15SSleepModel.h in Headers */,
+				C037D7DA1EF75B20000C6938 /* StatusTpye.h in Headers */,
+				C037D7CF1EF75B20000C6938 /* B15SDataSource.h in Headers */,
+				C037D7D71EF75B20000C6938 /* HealthDataModel.h in Headers */,
+				C037D7CB1EF75B20000C6938 /* B15SBluetoothManager.h in Headers */,
+				C037D7CD1EF75B20000C6938 /* B15SBluetoothManagerDelegate.h in Headers */,
+				C037D7AB1EF75B10000C6938 /* B15SBluetoothAPI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C037D7A51EF75B10000C6938 /* B15SBluetoothAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C037D7AE1EF75B10000C6938 /* Build configuration list for PBXNativeTarget "B15SBluetoothAPI" */;
+			buildPhases = (
+				C037D7A11EF75B10000C6938 /* Sources */,
+				C037D7A21EF75B10000C6938 /* Frameworks */,
+				C037D7A31EF75B10000C6938 /* Headers */,
+				C037D7A41EF75B10000C6938 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = B15SBluetoothAPI;
+			productName = B15SBluetoothAPI;
+			productReference = C037D7A61EF75B10000C6938 /* B15SBluetoothAPI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C037D79D1EF75B10000C6938 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = sucheng;
+				TargetAttributes = {
+					C037D7A51EF75B10000C6938 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6HVBV8YX8N;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C037D7A01EF75B10000C6938 /* Build configuration list for PBXProject "B15SBluetoothAPI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C037D79C1EF75B10000C6938;
+			productRefGroup = C037D7A71EF75B10000C6938 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C037D7A51EF75B10000C6938 /* B15SBluetoothAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C037D7A41EF75B10000C6938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C037D7A11EF75B10000C6938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C037D7DE1EF75B20000C6938 /* WholePointTestModel.m in Sources */,
+				C037D7D61EF75B20000C6938 /* ConstNSNotificationName.m in Sources */,
+				C037D7D01EF75B20000C6938 /* B15SDataSource.m in Sources */,
+				C037D7CA1EF75B20000C6938 /* B15SBluetoothDevice.m in Sources */,
+				C037D7D21EF75B20000C6938 /* B15SPeripheral.m in Sources */,
+				C037D7CC1EF75B20000C6938 /* B15SBluetoothManager.m in Sources */,
+				C037D7DC1EF75B20000C6938 /* UpdateVersionManager.m in Sources */,
+				C037D7D81EF75B20000C6938 /* HealthDataModel.m in Sources */,
+				C037D7D41EF75B20000C6938 /* B15SSleepModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C037D7AC1EF75B10000C6938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C037D7AD1EF75B10000C6938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C037D7AF1EF75B10000C6938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6HVBV8YX8N;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"$(PROJECT_DIR)/B15SBluetoothAPI/API/**",
+				);
+				INFOPLIST_FILE = B15SBluetoothAPI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = burace.B15SBluetoothAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C037D7B01EF75B10000C6938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6HVBV8YX8N;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"$(PROJECT_DIR)/B15SBluetoothAPI/API/**",
+				);
+				INFOPLIST_FILE = B15SBluetoothAPI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = burace.B15SBluetoothAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C037D7A01EF75B10000C6938 /* Build configuration list for PBXProject "B15SBluetoothAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C037D7AC1EF75B10000C6938 /* Debug */,
+				C037D7AD1EF75B10000C6938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C037D7AE1EF75B10000C6938 /* Build configuration list for PBXNativeTarget "B15SBluetoothAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C037D7AF1EF75B10000C6938 /* Debug */,
+				C037D7B01EF75B10000C6938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C037D79D1EF75B10000C6938 /* Project object */;
+}
